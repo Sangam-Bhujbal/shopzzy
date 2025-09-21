@@ -1,0 +1,25 @@
+/* Minimal admin styles - extend as needed */
+body.admin-login-body{font-family:Inter, Arial, sans-serif;background:#f4f6f8;margin:0;padding:0;display:flex;align-items:center;justify-content:center;height:100vh}
+.admin-login-card{background:#fff;padding:28px;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.08);width:360px}
+.admin-login-card h2{margin:0 0 12px;font-size:20px}
+.form-row{margin-bottom:12px}
+.form-row label{display:block;font-size:13px;color:#333;margin-bottom:6px}
+.form-row input{width:100%;padding:10px;border:1px solid #ddd;border-radius:6px}
+.btn.btn-primary{background:#2b6cb0;color:#fff;border:none;padding:10px 14px;border-radius:6px;cursor:pointer}
+.admin-errors .error{background:#ffe6e6;color:#a33;padding:8px;margin-bottom:6px;border-radius:4px}
+
+/* Admin layout */
+.admin-body{font-family:Inter, Arial, sans-serif;background:#f4f6f8;margin:0}
+.admin-sidebar{width:220px;background:#1f2937;color:#fff;min-height:100vh;position:fixed;padding:20px}
+.admin-logo{font-weight:700;font-size:18px;margin-bottom:18px}
+.admin-sidebar nav ul{list-style:none;padding:0;margin:0}
+.admin-sidebar nav ul li{margin-bottom:10px}
+.admin-sidebar nav ul li a{color:#cbd5e1;text-decoration:none}
+.admin-sidebar nav ul li a.active{color:#fff;font-weight:600}
+.admin-main{margin-left:240px;padding:24px}
+.admin-header{display:flex;justify-content:space-between;align-items:center}
+.admin-stats{display:flex;gap:16px;margin-top:20px}
+.stat-card{background:#fff;padding:18px;border-radius:8px;flex:1;box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+
+/* Responsive */
+@media(max-width:800px){.admin-sidebar{display:none}.admin-main{margin-left:0}}
