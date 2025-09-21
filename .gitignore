@@ -1,0 +1,3177 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node_modules
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# PHP
+# Composer
+vendor/
+composer.lock
+
+# Laravel specific
+/storage/app/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/app/.gitkeep
+!/storage/framework/.gitkeep
+!/storage/framework/cache/.gitkeep
+!/storage/framework/sessions/.gitkeep
+!/storage/framework/views/.gitkeep
+!/storage/logs/.gitkeep
+
+# E-Commerce specific
+uploads/*
+cache/*
+!uploads/.gitkeep
+!cache/.gitkeep
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Configuration files with sensitive data
+config/database.php
+config/email.php
+.env.php
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build directories
+build/
+dist/
+public/assets/
+
+# Test files
+tests/
+test/
+__tests__/
+spec/
+specs/
+
+# Documentation
+docs/_build/
+docs/build/
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.nfs*
+
+# Project specific
+# E-Commerce uploads (uncomment if you want to ignore uploaded files)
+# uploads/
+
+# Cache files
+cache/
+
+# Session files
+sessions/
+
+# Error logs
+error_log
+php_error.log
+
+# Debug files
+debug.log
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# IDE specific
+.vscode/settings.json
+.idea/workspace.xml
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive configuration files
+config/local.php
+config/production.php
+config/staging.php
+
+# API keys and secrets
+*.key
+*.pem
+secrets.json
+
+# Database dumps (uncomment if you don't want to track database files)
+# *.sql
+# database/*.sql
+
+# Image optimization cache
+images/cache/
+
+# Thumbnail cache
+thumbs/
+thumbnails/
+
+# Processed images
+assets/images/processed/
+assets/images/cache/
+
+# User uploaded content (uncomment if you want to ignore user uploads)
+# uploads/products/
+# uploads/categories/
+# uploads/banners/
+# uploads/users/
+
+# Export files
+exports/
+*.csv
+*.xlsx
+*.xls
+
+# Analytics
+analytics/
+stats/
+
+# Reports
+reports/
+*.pdf
+
+# Email templates cache
+emails/cache/
+
+# Newsletter
+newsletter/
+subscribers.csv
+
+# Sitemap and robots cache
+sitemap.xml
+robots.txt
+
+# CDN cache
+cdn/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Vagrant
+Vagrantfile
+
+# Ansible
+ansible/
+
+# Terraform
+terraform/
+*.tfstate
+*.tfvars
+
+# AWS
+.aws/
+
+# Google Cloud
+.gcloud/
+
+# Azure
+.azure/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+.jenkins/
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build artifacts
+artifacts/
+target/
+out/
+
+# Development files
+development/
+dev/
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Linting
+.eslintcache
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Storybook
+storybook-static/
+
+# Puppeteer
+.puppeteer/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Jest
+coverage/
+
+# Mocha
+.nyc_output/
+
+# Karma
+coverage/
+
+# Protractor
+test-results/
+
+# Selenium
+selenium-debug.log
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# TestCafe
+.screenshots/
+.videos/
+
+# CodeceptJS
+output/
+
+# WebdriverIO
+.allure/
+.errorShots/
+
+# Nightwatch
+reports/
+
+# BackstopJS
+backstop_data/
+
+# Percy
+.percy/
+
+# Applitools
+.applitools/
+
+# BrowserStack
+.browserstack/
+
+# Sauce Labs
+.saucelabs/
+
+# TestingBot
+.testingbot/
+
+# LambdaTest
+.lambdatest/
+
+# CrossBrowserTesting
+.crossbrowsertesting/
+
+# Rainforest
+.rainforest/
+
+# TestRail
+.testrail/
+
+# Zephyr
+.zephyr/
+
+# Xray
+.xray/
+
+# QTest
+.qtest/
+
+# TestLink
+.testlink/
+
+# PractiTest
+.practitest/
+
+# Testiny
+.testiny/
+
+# Kualitee
+.kualitee/
+
+# SpiraTest
+.spiratest/
+
+# Testuff
+.testuff/
+
+# TestLodge
+.testlodge/
+
+# Unfuddle
+.unfuddle/
+
+# FogBugz
+.fogbugz/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+# SourceForge
+.sourceforge/
+
+# CodePlex
+.codeplex/
+
+# Google Code
+.googlecode/
+
+# Launchpad
+.launchpad/
+
+# Savannah
+.savannah/
+
+# BerliOS
+.berlios/
+
+# RubyForge
+.rubyforge/
+
+# GForge
+.gforge/
+
+# Trac
+.trac/
+
+# Redmine
+.redmine/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+# SourceForge
+.sourceforge/
+
+# CodePlex
+.codeplex/
+
+# Google Code
+.googlecode/
+
+# Launchpad
+.launchpad/
+
+# Savannah
+.savannah/
+
+# BerliOS
+.berlios/
+
+# RubyForge
+.rubyforge/
+
+# GForge
+.gforge/
+
+# Trac
+.trac/
+
+# Redmine
+.redmine/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+# SourceForge
+.sourceforge/
+
+# CodePlex
+.codeplex/
+
+# Google Code
+.googlecode/
+
+# Launchpad
+.launchpad/
+
+# Savannah
+.savannah/
+
+# BerliOS
+.berlios/
+
+# RubyForge
+.rubyforge/
+
+# GForge
+.gforge/
+
+# Trac
+.trac/
+
+# Redmine
+.redmine/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+# SourceForge
+.sourceforge/
+
+# CodePlex
+.codeplex/
+
+# Google Code
+.googlecode/
+
+# Launchpad
+.launchpad/
+
+# Savannah
+.savannah/
+
+# BerliOS
+.berlios/
+
+# RubyForge
+.rubyforge/
+
+# GForge
+.gforge/
+
+# Trac
+.trac/
+
+# Redmine
+.redmine/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+# SourceForge
+.sourceforge/
+
+# CodePlex
+.codeplex/
+
+# Google Code
+.googlecode/
+
+# Launchpad
+.launchpad/
+
+# Savannah
+.savannah/
+
+# BerliOS
+.berlios/
+
+# RubyForge
+.rubyforge/
+
+# GForge
+.gforge/
+
+# Trac
+.trac/
+
+# Redmine
+.redmine/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+# SourceForge
+.sourceforge/
+
+# CodePlex
+.codeplex/
+
+# Google Code
+.googlecode/
+
+# Launchpad
+.launchpad/
+
+# Savannah
+.savannah/
+
+# BerliOS
+.berlios/
+
+# RubyForge
+.rubyforge/
+
+# GForge
+.gforge/
+
+# Trac
+.trac/
+
+# Redmine
+.redmine/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+# SourceForge
+.sourceforge/
+
+# CodePlex
+.codeplex/
+
+# Google Code
+.googlecode/
+
+# Launchpad
+.launchpad/
+
+# Savannah
+.savannah/
+
+# BerliOS
+.berlios/
+
+# RubyForge
+.rubyforge/
+
+# GForge
+.gforge/
+
+# Trac
+.trac/
+
+# Redmine
+.redmine/
+
+# MantisBT
+.mantisbt/
+
+# Bugzilla
+.bugzilla/
+
+# Jira
+.jira/
+
+# Trello
+.trello/
+
+# Asana
+.asana/
+
+# Basecamp
+.basecamp/
+
+# Monday.com
+.monday/
+
+# ClickUp
+.clickup/
+
+# Notion
+.notion/
+
+# Confluence
+.confluence/
+
+# SharePoint
+.sharepoint/
+
+# OneDrive
+.onedrive/
+
+# Google Drive
+.gdrive/
+
+# Dropbox
+.dropbox/
+
+# Box
+.box/
+
+# Mega
+.mega/
+
+# iCloud
+.icloud/
+
+# AWS S3
+.s3/
+
+# Azure Blob Storage
+.azureblob/
+
+# Google Cloud Storage
+.gcs/
+
+# DigitalOcean Spaces
+.dospaces/
+
+# Wasabi
+.wasabi/
+
+# Backblaze B2
+.b2/
+
+# Scaleway
+.scaleway/
+
+# OVH
+.ovh/
+
+# Hetzner
+.hetzner/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+
+# Surge
+.surge/
+
+# GitHub Pages
+.gh-pages/
+
+# GitLab Pages
+.gl-pages/
+
+# Bitbucket Pages
+.bb-pages/
+
+# AWS Amplify
+.amplify/
+
+# Zeit Now
+.now/
+
+# Render
+.render/
+
+# Railway
+.railway/
+
+# Fly.io
+.fly/
+
+# CapRover
+.captain-definition
+
+# Dokku
+.dokku/
+
+# Nanobox
+.nanobox/
+
+# Northflank
+.northflank/
+
+# Porter
+.porter/
+
+# Qovery
+.qovery/
+
+# Platform.sh
+.platform/
+
+# Acquia
+.acquia/
+
+# Pantheon
+.pantheon/
+
+# Cloudways
+.cloudways/
+
+# Kinsta
+.kinsta/
+
+# WP Engine
+.wpengine/
+
+# SiteGround
+.siteground/
+
+# Bluehost
+.bluehost/
+
+# HostGator
+.hostgator/
+
+# GoDaddy
+.godaddy/
+
+# Namecheap
+.namecheap/
+
+# DreamHost
+.dreamhost/
+
+# A2 Hosting
+.a2hosting/
+
+# InMotion Hosting
+.inmotion/
+
+# GreenGeeks
+.greengeeks/
+
+# iPage
+.ipage/
+
+# FatCow
+.fatcow/
+
+# JustHost
+.justhost/
+
+# HostMonster
+.hostmonster/
+
+# FastComet
+.fastcomet/
+
+# InterServer
+.interserver/
+
+# TMDHosting
+.tmdhosting/
+
+# Scala Hosting
+.scalahosting/
+
+# KnownHost
+.knownhost/
+
+# Liquid Web
+.liquidweb/
+
+# Rackspace
+.rackspace/
+
+# DigitalOcean
+.digitalocean/
+
+# Linode
+.linode/
+
+# Vultr
+.vultr/
+
+# Hetzner
+.hetzner/
+
+# OVH
+.ovh/
+
+# 1&1 IONOS
+.ionos/
+
+# Strato
+.strato/
+
+# Contabo
+.contabo/
+
+# Afterburst
+.afterburst/
+
+# RamNode
+.ramnode/
+
+# BuyVM
+.buyvm/
+
+# ChicagoVPS
+.chicagovps/
+
+# LowEndBox
+.lowendbox/
+
+# LowEndTalk
+.lowendtalk/
+
+# WebHostingTalk
+.webhostingtalk/
+
+# HostingAdvice
+.hostingadvice/
+
+# HostAdvice
+.hostadvice/
+
+# Trustpilot
+.trustpilot/
+
+# G2
+.g2/
+
+# Capterra
+.capterra/
+
+# SoftwareAdvice
+.softwareadvice/
+
+# GetApp
+.getapp/
+
+# AlternativeTo
+.alternativeto/
+
+# Product Hunt
+.producthunt/
+
+# Hacker News
+.hackernews/
+
+# Reddit
+.reddit/
+
+# Stack Overflow
+.stackoverflow/
+
+# GitHub
+.github/
+
+# GitLab
+.gitlab/
+
+# Bitbucket
+.bitbucket/
+
+#
